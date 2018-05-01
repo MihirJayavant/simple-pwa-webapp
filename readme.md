@@ -1,6 +1,6 @@
-# Simple todo progressive webapp
+# Simple progressive webapp
 
-## Its a college students grades views webapp
+## Its a college students grades viewing webapp
 
 ### It does the following tasks:
 1. Add students and their semesters marks

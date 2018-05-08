@@ -5,8 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Todo List</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <h2 class="red">Welcome to todo</h2>   
+
+    <!--nab bar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Students</a>
+            <ul id="nav-mobile" class="right hide-on-small-only">
+                <li><a><i class="material-icons white-text modal-trigger" href="#modal1">add</i></a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="wrapper">
+
+        <div class="row" id="list">
+
+            <div class="col s12 m4">
+                <div class="card2 hoverable">
+
+                    <div class="row">
+                        <div class="col s4">
+                            <img class="circle responsive-img height1" 
+                                    src="https://cdn-images-1.medium.com/max/1600/1*l0JiZHyCBXtgeMQyhBpT6g.png" 
+                                    alt="Avatar" >  
+                        </div>
+                        <div class="col s8">
+                            <div class="name height1 valign-wrapper">Shashank Kawle</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card2 hoverable">
+    
+                    <div class="row">
+                        <div class="col s4">
+                            <img class="circle responsive-img height1" 
+                                    src="https://cdn-images-1.medium.com/max/1600/1*l0JiZHyCBXtgeMQyhBpT6g.png" 
+                                    alt="Avatar" >  
+                        </div>
+                        <div class="col s8">
+                            <div class="name height1 valign-wrapper">Tushar Gawhale</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Form Modal-->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Student</h4>
+          <p>Your name</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
+
 </body>
 </html>

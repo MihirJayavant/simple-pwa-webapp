@@ -1,4 +1,23 @@
-.red
+.brand-logo
 {
-    color: red;
+    margin-left: 10px;
+}
+
+.name
+{
+    font-size: 1.5rem;
+}
+
+.height1
+{
+    height: 70px;
+}
+
+.card2
+{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    z-index: 100;
+    margin: 15px;
+    padding: 5px
 }

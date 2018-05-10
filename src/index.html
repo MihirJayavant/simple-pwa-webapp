@@ -20,42 +20,12 @@
             </ul>
         </div>
     </nav>
+
+    <!--main-->
     
     <div class="wrapper">
 
         <div class="row" id="list">
-
-            <div class="col s12 m4">
-                <div class="card2 hoverable">
-
-                    <div class="row">
-                        <div class="col s4">
-                            <img class="circle responsive-img height1" 
-                                    src="https://cdn-images-1.medium.com/max/1600/1*l0JiZHyCBXtgeMQyhBpT6g.png" 
-                                    alt="Avatar" >  
-                        </div>
-                        <div class="col s8">
-                            <div class="name height1 valign-wrapper">Shashank Kawle</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m4">
-                <div class="card2 hoverable">
-    
-                    <div class="row">
-                        <div class="col s4">
-                            <img class="circle responsive-img height1" 
-                                    src="https://cdn-images-1.medium.com/max/1600/1*l0JiZHyCBXtgeMQyhBpT6g.png" 
-                                    alt="Avatar" >  
-                        </div>
-                        <div class="col s8">
-                            <div class="name height1 valign-wrapper">Tushar Gawhale</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
         </div>
 
@@ -64,11 +34,59 @@
     <!--Form Modal-->
     <div id="modal1" class="modal">
         <div class="modal-content">
-          <h4>Student</h4>
-          <p>Your name</p>
-        </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+            <div class="row">
+                <form class="col s12" name="studentForm" >
+                    <div class="row">
+
+                        <div class="input-field col s6">
+                            <input id="Fullname" type="text" class="validate" name="name">
+                            <label for="Fullname">Fullname</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="url" type="text" class="validate" name="url">
+                            <label for="url">Profile Url</label>
+                        </div>
+
+                        <div class="input-field col s4">
+                            <input id="sem1" type="text" class="validate" name="sem1" value="0">
+                            <label for="sem1">Sem 1</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input id="sem2" type="text" class="validate" name="sem2" value="0">
+                            <label for="sem2">Sem 2</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input id="sem3" type="text" class="validate" name="sem3" value="0">
+                            <label for="sem3">Sem 3</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input id="sem4" type="text" class="validate" name="sem4" value="0">
+                            <label for="sem4">Sem 4</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input id="sem5" type="text" class="validate" name="sem5" value="0">
+                            <label for="sem5">Sem 5</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input id="sem6" type="text" class="validate" name="sem6" value="0">
+                            <label for="sem6">Sem 6</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input id="sem7" type="text" class="validate" name="sem7" value="0">
+                            <label for="sem7">Sem 7</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input id="sem8" type="text" class="validate" name="sem8" value="0">
+                            <label for="sem8">Sem 8</label>
+                        </div>
+
+                        <div class="col s12">
+                            <button type="button" id="addBtn" class="modal-close btn-flat green white-text"> Add </button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
